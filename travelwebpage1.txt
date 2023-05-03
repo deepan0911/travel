@@ -1,0 +1,422 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WEBSITE </title>
+        <style>
+        body{
+            background-color: lavender;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar{
+            margin-top: 0%;
+                top: 0%;
+                left:0%;
+                background-color:gray;
+                overflow:visible;
+                width:100%;
+                position: fixed;
+            
+            }
+            .a-left{
+                margin-top: 10px;
+                margin-left: 10px;
+                width:80px;
+                height: 40px;
+                float: left;
+                opacity: 0.5;
+            }
+            .a-right{
+                float: right;
+                text-decoration: none;
+                padding: 20px 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 17px;
+                color: azure;
+                display:block;
+            }
+            .a-right:hover{
+                background-color: black;
+            }
+        
+
+        h1{
+            color: white;
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            border-radius: 25px;
+            opacity: 0.7;
+        }
+        
+        p{ 
+            text-align: center;
+            color:black;
+            font-size: 20px;
+        }
+       
+        .ooty{
+            background-color: black;
+            color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-size:  25px;
+            padding: 100px;
+            border-radius: 25px;
+            margin-bottom: 10px;
+            opacity: 0.9;
+
+        }
+        .kodaikanal{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align:center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .valparai{
+            color: white;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align:center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .wayanad{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .munnar{
+            color: white;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .coorg{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .chikmanglur{
+            color: white;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .yercaud{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .vagamon{
+            color: white;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+        }
+        .kovalam{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .varkala{ 
+            color: white;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .cherai{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .pondicherry{
+            color: black;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+        .marina{
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+             text-align: center;
+             color: black;
+             font-size: 25px;
+             padding: 100px;
+             border-radius: 25px;
+             margin-bottom: 10px;
+             opacity: 0.9;
+
+        }
+    
+        .footer{
+                top: 0%;
+                left:0%;
+                background-color: gray;
+                overflow: hidden;
+                width:100%;
+        }
+        .btn{
+            border-radius: 15px;
+            background-color:white;
+            color:black;
+            font-size: 15px;
+            padding:10px;
+            float:initial;
+            box-shadow: #111;
+            opacity: 0.7;
+
+        }     
+
+
+        </style>
+    </head>
+    <div class="navbar">
+        <img class="a-left" src="C:\\Users\\deepa\\Desktop\\logo.png">
+        <a class="a-right" href="#home"><i>Home</i></a>
+        <a href="#news" class="a-right"><i>News</i></a>
+        <a href="#contact" class="a-right"><i>Contact</i></a>
+        <a href="#about" class="a-right"><i>About</i></a>  
+    </div> <br><br>
+    <div class="h1">
+        <h1><i><marquee><q>The journey of a thousand miles begins with a single step</q></marquee></i></h1>
+        <hr>
+    </div>
+    <div class="p">
+        <p><i>Travelling is an amazing way to learn a lot of things in life. A lot of people around the world travel every year to many places. Moreover, it is important to travel to humans. Some travel to learn more while some travel to take a break from their life.</i></p>
+    <hr>
+    </div>
+    <div class="ooty">
+        <h1><i><q>OOTY</q></i></h1>
+        <hr>
+        
+        <p style="color:white"><i>Ooty (short for Udhagamandalam) is a resort town in the Western Ghats mountains, in southern India's Tamil Nadu state. Founded as a British Raj summer resort, it retains a working steam railway line. Other reminders of its colonial past include Stone House, a 19th-century residence, and the circa-1829 St. Stephen’s Church. Its 55-acre Government Botanical Garden lies on the slopes of Doddabetta Peak.Ooty is a scenic hill town in southern India. It is surrounded by the Nilgiri Hills and is popularly known as the Queen of Hills. But when is the best time to visit Ooty?
+
+            Climate (if any) is the only serious deterrent which might spoil your travel plans to Ooty. But regarding climate too, Ooty has something different to offer all throughout the year. The summer is perhaps the best time to visit the place, if you are planning to visit all the tourist spots, including some adventurous treks and hand gliding.
+            
+            Be it summer, monsoon or winter, Ooty will enthral you with the natural grandeur of the mountains and the hospitality of its residents. Being a cherished tourist destination for many, Ooty has got excellent connectivity with the cities and towns in the neighbourhood. And hire one of the best car rental companies in Ooty to ensure a comfortable ride with in Ooty.</i></p><br><br>
+        <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03222023&checkout=03232023&locusId=CTXOO&locusType=city&city=CTXOO&country=IN&searchText=Ooty%2C%20Tamil%20Nadu%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>
+        <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/adventure-sports-in-ooty/'"><i>CHECK ACTIVITIES</i></button>
+        <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Ooty,+Tamil+Nadu/@11.0569585,76.2848424,9.52z/data=!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3ba8bd84b5f3d78d:0x179bdb14c93e3f42!2m2!1d76.6950324!2d11.4102038'"><i>VIEW ROUTE</i></button>     
+    </div>
+    <div class="kodaikanal">
+        <h1 style="color: black;"><i><q>KODAIKANAL</q></i></h1>
+        <hr>
+        <p ><i>Kodaikanal is a hill town in the southern Indian state of Tamil Nadu. It’s set in an area of granite cliffs, forested valleys, lakes, waterfalls and grassy hills. At 2,000 meters above sea level, the town centers around man-made, star-shaped Kodaikanal Lake, bordered by evergreen forest. Rowing boats can be hired, and hikers and cyclists follow the 5k Lake Road path around the shore.Kodaikanal, often referred to as the ‘Princess of Hill stations’ is located in Dindigul district of Tamil Nadu. Kodai is a beautiful hill station at an altitude of about 7000 feet (2133 m) on the southern tip of upper Palani hills. It has several scenic natural attractions which are enjoyed by its visitors and make it a popular romantic destination.If you ever disbelieved the mesmerizing power of Nature, you should travel to Kodaikanal, which beckons you with an enchanting spell. A honeymooners’ haven, Koadaikanal is a hill resort in TamilNadu situated at an altitude of about 2,133-m high amidst the folds of the Pali hills.
+
+            The pride of Kodaikanal is the ‘Kurinji-flower’, which blossoms once in 12 years, imparting an ethereal beauty to the hills. The hill town is also renowned for its educational institutions of international repute.</i></p><br><br>
+    
+            <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03222023&checkout=03232023&locusId=CTXKO&locusType=city&city=CTXKO&country=IN&searchText=Kodaikanal%2C%20Tamil%20Nadu%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'" ><i>BOOK HOTELS</i></button>  
+            <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/adventure-sports-in-kodaikanal/'" ><i>CHECK ACTIVITIES</i></button>  
+            <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Kodaikanal,+Tamil+Nadu/@10.6280253,76.9845857,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3b0766637f0a0387:0x9ffae9373758c13c!2m2!1d77.4891822!2d10.2381136'"><i>VIEW ROUTE</i></button>
+        </div>
+    <div class="valparai">
+        <h1><i><q>VALPARAI</q></i></h1>
+        <hr>
+        <p style="color: white;"><i>Valparai (originally known as Poonachimalai) is a Taluk and hill station in the Coimbatore district of Tamil Nadu, India. It consists of Anamalai Tiger Reserve (earlier known as Indira Gandhi Wildlife Sanctuary and National Park (IGWLS&NP) and prior to that as Anaimalai Wildlife Sanctuary). It is located 3,474 feet (1,059 m) above sea level on the Anaimalai Hills range of the Western Ghats. There are a total of 56 estates here. The game of football is very popular here. State level competitions are held every year. The foothill starts exactly from Monkey Falls which is at a distance of 38 kilometres (24 mi) to Valparai. The route to Valparai from the foothills consists of 40 hairpin bends. The Kerala state border town of Malakkappara is at a distance of 27 kilometres from Valparai. While major portions of the land are owned by private tea companies, large forest areas continue to be out of bounds</i></p><br><br>
+        <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03192023&city=CTVLI&checkout=03202023&roomStayQualifier=2e0e&locusId=CTVLI&country=IN&locusType=city&searchText=Valparai,%20Tamil%20Nadu,%20India&regionNearByExp=3'"><i>BOOK HOTELS</i></button>
+        <button type="button" class="btn" onclick="document.location='https://www.tripadvisor.in/Attractions-g3149947-Activities-Valparai_Coimbatore_District_Tamil_Nadu.html'" ><i>CHECK ACTIVITIES</i></button> 
+        <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Valparai,+Tamil+Nadu/@10.6715129,76.6369231,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3ba8279db1aa1b0f:0x86bc2b6e18667469!2m2!1d76.9553967!2d10.3269734'"><i>VIEW ROUTE</i></button>
+    </div>
+    <div class="wayanad">
+        <h1 style="color: black;"><i><q>WAYANAD</q></i></h1>
+        <hr>
+        <p  ><i>Wayanad (IPA: [ʋɐjɐnaːɖɨ̆]) is a district in the north-east of Indian state Kerala with administrative headquarters at the municipality of Kalpetta. It is the only plateau in Kerala.[6] The Wayanad Plateau forms a continuation of the Mysore Plateau, the southern portion of Deccan Plateau. It is set high in the Western Ghats with altitudes ranging from 700 to 2100 meters.[7] Vellari Mala, a 2,240 m (7,349 ft) high peak situated on the trijunction of Wayanad, Malappuram, and Kozhikode districts, is the highest point in Wayanad district. The district was formed on 1 November 1980 as the 12th district in Kerala, by carving out areas from Kozhikode and Kannur districts. An area of 885.92 km2 of the district is forested.[8] Wayanad has three municipal towns—Kalpetta, Mananthavady and Sulthan Bathery. There are many indigenous tribes in this area.[9][10] The Kabini River, a tributary of Kaveri River, originates at Wayanad. Wayanad district, along with the Chaliyar valley in neighbouring Nilambur (Eastern Eranad region) in Malappuram district, is known for natural gold fields,[11] which are also seen in other parts of the Nilgiri Biosphere Reserve. Chaliyar river, which is the fourth longest river of Kerala, originates on the Wayanad plateau. The historically important Edakkal Caves are located in Wayanad district.</i></p><br><br>
+        <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03192023&checkout=03202023&locusId=CTXWA&locusType=city&city=CTXWA&country=IN&searchText=Wayanad%2C%20Kerala%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>
+        <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/things-to-do-in-wayanad/'" ><i>CHECK ACTIVITIES</i></button> 
+        <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Wayanad,+Kerala/@11.2180121,76.2526478,9.65z/data=!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3ba60aca72a6f31d:0x80f9947968021a09!2m2!1d76.0833999!2d11.703206'"><i>VIEW ROUTE</i></button>
+    </div>
+    <div class="munnar">
+        <h1><i><q>MUNNAR</q></i></h1>
+        <hr>
+        <p style="color:white"><i>The south-west state of India, Kerala is one of the major tourist destinations in the country with its silvery coast, serpentine backwaters, coconut grove swaying to the south-west wind and Western Ghats covered in aromatic spice and tea plantation. There is no dearth of places to see in Kerala and Munnar is one such place. Located at about 5,200 ft above the sea level, Munnar is a beautiful hill station in the district of Idukki, Kerala. Once the summer resort for the British, Munnar is known for its pleasant climate and pristine beauty. The rolling hills covered in mist intersected by the winding road, the dark emerald green coloured plantation and the few lone houses in midst of it will instantly make you fall in love with this place. Munnar is a very popular destination among the honeymooners. It is also an ideal place for nature lovers, wildlife lovers and adventure enthusiasts alike. You can indulge in boating, trekking and paragliding. Munnar is the perfect place to hang your shoes and just soak in the calm and relaxing atmosphere. </i></p><br><br>
+        <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03192023&checkout=03202023&locusId=CTXMN&locusType=city&city=CTXMN&country=IN&searchText=Munnar%2C%20Kerala%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>   
+        <button type="button" class="btn" onclick="document.location='https://www.tripadvisor.in/Attractions-g303881-Activities-Munnar_Idukki_District_Kerala.html'" ><i>CHECK ACTIVITIES</i></button> 
+        <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Munnar,+Kerala/@10.5527563,76.8202655,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3b0799794d099a6d:0x63250e5553c7e0c!2m2!1d77.0595248!2d10.0889333'"><i>VIEW ROUTE</i></button>
+    </div>
+    <div class="coorg">
+        <h1 style="color: black;"><i><q>COORG</q></i></h1>
+        <hr>
+        <p><i>Coorg, officially called Kodagu, is the most sought after and popular hill station of Karnataka. Lying serenely amidst high mountains, Coorg’s landscape stays misty throughout the year. The aboriginals of the place are Kodavas. Apart from Kannada, the other two main languages of this hill station are Kodagu and Kodava.
+
+            The best time to visit Kodagu is between October to May and the peak season for this hill station is within February to May. Kodagu is the largest producer of Coffee in India. Also, it is one of the places with highest rainfall across the nation. Undulating hills covered in lush green forests and a landscape dotted with coffee plantations, tea gardens and orange groves, this hill station has breathtakingly stunning scenic beauty.The popular tourist attractions in Kodagu include Bhagamandala, Talakaveri, Nisargadhama, Dubare, Abbey Falls, Iruppu Falls and Nagarahole National Park. Pushpagiri and Brahmagiri in Coorg are ideal for trekking.</i></p><br><br>
+            <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03192023&checkout=03202023&locusId=CTXCR&locusType=city&city=CTXCR&country=IN&searchText=Coorg%2C%20Karnataka%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'" ><i>BOOK HOTELS</i></button>
+            <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/best-things-to-do-in-coorg/'" ><i>CHECK ACTIVITIES</i></button> 
+            <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Coorg,+Karnataka/@11.8136664,74.798347,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3ba50075627a7fff:0xaf8a66ea4651c1a6!2m2!1d75.7381856!2d12.4244205'"><i>VIEW ROUTE</i></button>
+        </div>
+    <div class="chikmanglur">
+        <h1><i><q>CHIKMANGLUR</q></i></h1>
+        <hr>
+       <p style="color: white;"><i>Chikmagalur is a hill station in Karnataka, a state in southwest India. To the north is Baba Budangiri, a mountain range in the Western Ghats, with 3 large caves said to be holy. Trails through forests and grasslands lead up to Mullayanagiri Peak. The cascading Hebbe Falls lie in an area of coffee plantations. The forested Bhadra Wildlife Sanctuary, northwest of Chikmagalur, is home to elephants, tigers and leopards.Chikmagalur as rugged terrains, stunning mountain regions and also has lowlands. Because it is situated amidst beautiful landscapes and untouched environs, this is one destination that you must explore. There is also a local belief that coffee was first made in Chikmagalur.Chikmagalur district is situated in the south-western part of the state. It consists of 7 taluks – Chikmagalur, Kadur, Koppa, Mudigere, N.R Pura, Sringeri and Tarikere. District is famous for its coffee cultivation and is known as the coffee land of Karnataka.</i></p><br><br>
+       <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03192023&checkout=03202023&locusId=CTXZS&locusType=city&city=CTXZS&country=IN&searchText=Chikmagalur%2C%20Karnataka%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>
+       <button type="button" class="btn" onclick="document.location='https://www.tripadvisor.in/Attractions-g297629-Activities-Chikmagalur_Chikkamagaluru_District_Karnataka.html'" ><i>CHECK ACTIVITIES</i></button> 
+       <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Chikkamagaluru,+Karnataka/@12.2703638,76.0488701,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3bbad762c8a889dd:0xb3cf49155294be16!2m2!1d75.7720439!2d13.3161441'"><i>VIEW ROUTE</i></button>
+    </div>
+    <div class="yercaud">
+        <h1 style="color: black;"><i><q>YERCAUD</q></i></h1>
+        <hr>
+        <p ><i>Yercaud is a hill station town in the south Indian state of Tamil Nadu. It lies in the Shevaroy Hills, known for their orange groves, and coffee, fruit and spice plantations. Yercaud Lake has a boathouse, and is surrounded by gardens and woods. On the lake’s eastern shore, Anna Park has local plants and a Japanese garden with bonsai. To the southwest, Lady’s Seat vantage point has a watchtower with a telescope.Yercaud is also known for Kurinji flowers and they bloom here a lot. The flower is very rare because it blooms once in twelve years and the garden is one of the best places to see them in full bloom. The National Orchidarium has located only 2 km from Emerald Lake and there are over 30 orchid species to be seen here.Yercaud is a hill station near Salem, in the Servarayan range of hills (anglicized as Shevaroys) in the Eastern Ghats. It is at an altitude of 1515 metres (4969 feet) above the see level. The total extent of Yercaud Taluk is 382.67 Sq.kms. </i></p><br><br>
+        <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03192023&checkout=03202023&locusId=CTXYE&locusType=city&city=CTXYE&country=IN&searchText=Yercaud%2C%20Tamil%20Nadu%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>
+        <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/adventure-sports-in-yercaud/'" ><i>CHECK ACTIVITIES</i></button> 
+        <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Yercaud,+Tamil+Nadu/@11.4011921,77.3037267,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3babf42b4747d5eb:0x1d3ccd9945d5e7ee!2m2!1d78.2097052!2d11.7747924'"><i>VIEW ROUTE</i></button>
+    </div>
+    <div class="vagamon">
+        <h1><i><q>VAGAMON</q></i></h1>
+        <hr>
+        <p style="color:white"><i>Vagamon is a hill station located in Kottayam- Idukki border of Kerala. It has a cool climate with the temperature between 10-23°C during a summer midday. It is situated 1,100 metres above sea level.
+
+            Vagamon is a tiny plantation township in Central Travancore, Vagamon has an overtone of green. With a never-ending line of lush green hills, breathtaking ravines and meandering rivulets. A perfect tourist place situated 1200 meters above the sea level spot surrounded by the greenery of tea gardens , Fresh cool air, murmuring Pine forest ,small waterfalls , attractive meadows inviting you to vagamon.Reaching Vagamon itself is an extraordinary experience. The meandering road to Vagamon is cut in solid rock lined with pine forests. And as you wind your way through green capped hills, the rolling plains come into view thousands of feet below you.
+            </i></p><br><br>
+            <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03222023&city=CTXVE&checkout=03232023&roomStayQualifier=2e0e&locusId=CTXVE&country=IN&locusType=city&searchText=Vagamon,%20Kerala,%20India&regionNearByExp=3'"><i>BOOK HOTELS</i></button>
+            <button type="button" class="btn" onclick="document.location='https://www.tripadvisor.in/Attractions-g2282921-Activities-Vagamon_Idukki_District_Kerala.html'"><i>CHECK ACTIVITIES</i></button>
+            <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Vagamon,+Kerala/@10.3180112,76.5506417,9z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3b07b486067afccb:0xe78789cc4d9eabb9!2m2!1d76.9052294!2d9.6861814'"><i>VIEW ROUTE</i></button>
+        </div><hr>
+        <div class="kovalam">
+            <h1 style="color: black;"><i><q>KOVALAM</q></i></h1>
+            <hr>
+            <p ><i>Kovalam is a small coastal town in the southern Indian state of Kerala, south of Thiruvananthapuram. At the southern end of Lighthouse Beach is a striped lighthouse with a viewing platform. Palm-backed beaches also include Hawa Beach and Samudra Beach. Heading south, Vizhinjam Juma Masjid mosque overlooks the busy fishing harbor. Inland, Sagarika Marine Research Aquarium displays technology used in pearl production.Kovalam first received attention when the Regent Maharani Sethu Lakshmi Bayi of Travancore constructed her beach resort, Halcyon Castle, here towards the end of the 1920s. Thereafter the place was brought to the public eye by her nephew the Maharaja of Travancore.[2] The European guests of the then Travancore kingdom discovered the potentiality of Kovalam beach as a tourist destination in the 1930s. In the early 1970s many hippies came on their way to Ceylon in the Hippie Trail, beginning the transformation of a casual fishing village of Kerala into a significant tourist destination.</i></p><br><br>
+                <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03262023&city=CTXOV&mmAreaTag=Kovalam%20Beach%7CARKOVALAM&checkout=03272023&roomStayQualifier=2e0e&locusId=CTXOV&country=IN&locusType=city&searchText=Kovalam%20Beach,%20Kovalam%20and%20Poovar&regionNearByExp=3'"><i>BOOK HOTELS</i></button>
+                <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/things-to-do-in-kovalam/'"><i>CHECK ACTIVITIES</i></button>
+                <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Kovalam+Beach,+Kerala/@9.6069932,76.036969,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3b05a5bb99dbbfd7:0xca415947dc10a9b5!2m2!1d76.9804176!2d8.3837841'"><i>VIEW ROUTE</i></button>
+            </div>
+            <div class="varkala">
+                <h1><i><q>VARKALA</q></i></h1>
+                <hr>
+                <p style="color:white"><i>Varkala, a calm and quiet hamlet, lies on the outskirts of Thiruvananthapuram district. It has several tourist attractions that include a beautiful beach, a 2000-year-old Vishnu Temple and the Ashramam - Sivagiri Mutt a little distance from the beach.
+
+                    The Papanasam Beach (also called as Varkala Beach), which is ten kilometers away from Varkala, is renowned for a natural spring. Which is considered to have medicinal and curative properties. A dip in the holy waters at this beach is believed to purge the body of impurities and the soul of all sins; hence the name 'Papanasam Beach'.
+                    
+                    A two thousand-year-old shrine the Janardhanaswamy Temple stands on the cliffs overlooking the beach, a short distance away. The Sivagiri Mutt, founded by the great religious reformer and philosopher Sree Narayana Guru (1856 - 1928) is also close by. The Samadhi (the final resting place) of the Guru here attracts thousands of devotees every year during the Sivagiri Pilgrimage days - 30th December to 1st January. Sree Narayana Guru propagated the ideology: "one caste, one religion and one God", in a society torn by the taboos of caste system.</i></p><br>
+                <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03262023&checkout=03282023&locusId=CTXVR&locusType=city&city=CTXVR&country=IN&searchText=Varkala%2C%20Kerala%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>
+                <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/things-to-do-in-varkala/'"><i>CHECK ACTIVITIES</i></button>
+                <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Varkala+Beach,+Kerala/@9.8800254,76.03697,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3b05ef1c356e35d9:0x529a20f7e0453699!2m2!1d76.7031667!2d8.7355515'"><i>VIEW ROUTE</i></button>
+            </div>
+            <div class="cherai">
+                <h1 style="color: black;"><i><q>CHERAI</q></i></h1>
+                <hr>
+                <p><i>Cherai Beach is a beach located in Cherai in the northern side of Vypin Island, a suburb of the city Kochi in the state of Kerala, India. One of the most visited beaches in the state, it is situated at around 25 km from downtown Kochi and 20 km from Cochin International Airport.Cherai beach is one of the must visit places in Cochin. The 10 kilometer long Cherai Beach is the longest beach in Kerala. The beach is located on the northern end of Vypeen Island. Tourists who visit Cherai beach can witness the alluring beauty of backwaters merging with the majestic Arabian Sea. This beach is also renowned for dolphin watching.
+
+                    The 15 kilometer shoreline of Cherai beach is also known for being one of the cleanest beaches in India. The shallow depth of the water here is safe for swimming and other water sports. The beach has a 400 meter walkway and a children’s park, making your visit even more enjoyable. The best time to visit the beach is from the end of September to mid March. Since it is a coastal area, the weather might be slightly humid yet pleasant during these months.</i></p><br>
+                <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03262023&checkout=03282023&locusId=CTCOK&locusType=city&city=CTCOK&country=IN&searchText=Cherai%20Beach%2C%20Cochin&roomStayQualifier=2e0e&_uCurrency=INR&mmPoiTag=POI%7CCherai%20Beach%7CPOI68506%7C10.13641%7C76.18058&reference=hotel&type=poi'">BOOK HOTELS</button>
+                <button type="button" class="btn" onclick="document.location='https://www.tripadvisor.in/AttractionsNear-g3200193-d325100-Cherai_Beach-Vypin_Island_Kochi_Cochin_Ernakulam_District_Kerala.html'">CHECK ACTIVITIES</button>
+                <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Cherai+Beach,+Vypin,+Kochi,+Kerala/@10.4895899,76.0268628,9z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3b0817552b4c321d:0xbfe741cde4dcdd33!2m2!1d76.1782833!2d10.1415953'">VIEW ROUTE</button>
+            </div>
+            <div class="pondicherry">
+                <h1><i><q>PONDICHERRY</q></i></h1>
+                <hr>
+                <p style="color:white"><i>Rock Beach is the popular stretch of beachfront in the city of Puducherry, India, along the Bay of Bengal. It is a 1.2-kilometre-long stretch in Pondicherry, starts from War Memorial and end at Dupleix Park on the Goubert AvenueAuroville Beach. One of the best Pondicherry Beaches, Auroville Beach which is also known as Auro Beach is located near the famous Auroville. It is known for its shallow waters, as clear as a crystal, spread volcanic sands and beautiful seashells that you won't be able to resist yourself from collecting.It all comes down to what you want to do in your spare time. Goa is the place to be if you want to have fun, have a good time, enjoy some water sports, go shopping, go hiking, mountain climbing, or even go shopping. Pondicherry beats out the more crowded Goa when it comes to tranquil vacations.Pondicherry is best known for its Portuguese-style architectural buildings and streets. The place has an old-school vibe and the beaches are simply incomparable. The tranquility and serenity hidden in these beaches are unmatchable. These make sure that travelers get to embrace the best of the best. Here are some of the best beaches in Pondicherry.</i></p><br>
+                <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03262023&checkout=03282023&locusId=CTXPC&locusType=city&city=CTXPC&country=IN&searchText=Pondicherry%2C%20Puducherry%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&reference=hotel&type=city'"><i>BOOK HOTELS</i></button>
+                <button type="button" class="btn" onclick="document.location='https://traveltriangle.com/blog/adventure-sports-in-pondicherry/'"><i>CHECK ACTIVITIES</i></button>
+                <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Pondicherry+Beach,+Puducherry/@11.6017486,77.2738922,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3a53622c9c0dfaab:0xfba7e7b0a85cf3f1!2m2!1d79.8358019!2d11.9312773'"><i>VIEW ROUTE</i></button>
+            </div>
+            <div class="marina">
+                <h1 style="color: black;"><i><q>MARINA</q></i></h1>
+                <hr>
+                <p ><i>Marina Beach, or simply the Marina, is a natural urban beach in Chennai, Tamil Nadu, India, along the Bay of Bengal. The beach runs from near Fort St. George in the north to Foreshore Estate in the south, a distance of 6.0 km, making it the second longest urban beach in the world, after Cox's Bazar Beach.Marina beach in Chennai along the Bay of Bengal is India’s longest and world’s second longest beach. This predominantly sandy of nearly 12 kilometers extends from Beasant Nagar in the south to Fort St. George in the north. Chennai Marina beach was renovated by Governor Mountstuart Elphinstone Grant Duff in 1880s. All tourists traveling to Chennai never miss visiting this grand Chennai beach. Marina beach is easily accessible by buses, taxis, two and three wheelers.Marina beach is full of activity in the early morning hours and in the evenings. Walking along the beaches during sunrise and sunset is a pleasant experience for all. In the evening this beach becomes a fair ground with numerous stalls selling artifacts, handcrafted showpieces, ethnic jewelry, and food items. Children play games and frolic around.
+
+                    Going into the sea should be done under expert guidance as the undercurrent is strong. Flying kites and pony riding are popular activities on this beach.</i></p><br>
+                <button type="button" class="btn" onclick="document.location='https://www.makemytrip.com/hotels/hotel-listing/?checkin=03262023&checkout=03282023&locusId=CTMAA&locusType=city&city=CTMAA&country=IN&searchText=Marina%20Beach%2C%20Chennai&roomStayQualifier=2e0e&_uCurrency=INR&mmPoiTag=POI%7CMarina%20Beach%7CPOIMARINA593F80%7C13.05%7C80.2824&reference=hotel&type=poi'"><i>BOOK HOTELS</i></button>
+                <button type="button" class="btn" onclick="document.location='https://www.tripadvisor.in/AttractionsNear-g304556-d321279-Marina_Beach-Chennai_Madras_Chennai_District_Tamil_Nadu.html'"><i>CHECK ACTIVITIES</i></button>
+                <button type="button" class="btn" onclick="document.location='https://www.google.com/maps/dir/Coimbatore,+Tamil+Nadu/Marina+Beach,+Tamil+Nadu/@12.0584496,77.496804,8z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3ba859af2f971cb5:0x2fc1c81e183ed282!2m2!1d76.9558321!2d11.0168445!1m5!1m1!1s0x3a52689bb60132bb:0x549cf8edf62b60a!2m2!1d80.2824026!2d13.0499526'"><i>VIEW ROUTE</i></button>
+            </div>
+    <div class="footer">
+        <p style="color: aliceblue;"><i> © Copyright issued</i></p>
+    
+    </div>
+
+   </html>

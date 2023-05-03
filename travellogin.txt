@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>LOGIN PAGE</title>
+        <style>
+            body{
+                background-color:white;
+            }
+            .navbar{
+                top:0;
+                margin: 0;
+                left: 0;
+                background-color: black;
+                overflow: hidden;
+                width: 100%;
+            }
+            .a-right{
+                float:right;
+                text-decoration: none;
+                padding: 20px 20px;
+                color: aliceblue;
+                display: block;
+                font-size: 17px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+            .a-right:hover{
+                background-color:darkcyan;
+            }
+            .login{
+                border-radius: 20px;
+                background-color: aliceblue;
+                margin: auto;
+                width: 700px;
+                box-shadow :1px 1px;
+                text-align: center;
+                border-color: lightgray;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            }
+            .login-left{
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding: 20px;
+                color:black;
+                background-color: aliceblue;
+            }
+            .fa-facebook{
+                background-color:#085392;
+                color:white;
+                padding:5px;
+                border-radius: 70px;
+                
+            }
+            .fa-instagram{
+                background-color:palevioletred;
+                color: white;
+                padding: 5px;
+                border-radius: 70px;
+            }
+            .fa-google{
+                background-color:white;
+                color:#123;
+                padding: 5px;
+                border-radius: 70px;
+            }
+            
+            .textbox{
+                border-style:solid;
+                border-radius: 20px;
+                background-color: lightcyan;
+                color:gray ;
+                font-size: 12px;
+                padding: 10px;
+                width: 280px;
+                
+            }
+            .btn{
+                border-style: hidden;
+                border-color: darkcyan;
+                border-radius: 25px;
+                background-color: darkcyan;
+                color: white;
+                width: 120px;
+                height: 30px;
+                text-align: center;
+                
+            }
+           
+        </style>
+    </head>
+    <div class="navbar">
+        <a href="#" class="a-right">Home</a>
+        <a href="#" class="a-right">About</a>
+        <a href="#" class="a-right">Contact</a>
+    </div><br><br><br><br><br>
+    <div class="login"><br>
+        <h1 >Login to your Account</h1><hr>
+        <p >Login using social accounts<br><br><a href="#" class="fa fa-facebook"></a>&emsp;<a href="#" class="fa fa-instagram"></a>&emsp;<a href="#" class="fa fa-google"></a><br><br>or</p>
+        <input type="email" name="email" id="email" class="textbox" placeholder="Email"><br><br>
+        <input type="password" name="password" id="pass" class="textbox" placeholder="Password"><br>
+        <a href="#" style="float:left;margin-left: 30%;font-size: 12px;margin-top: 10px;"">Forget password</a><br><br><br>
+        <button type="button" name="sign in" class="btn" onclick="document.location='file:///C:/Users/deepa/0.html'">Sign in</button><br><br>
+       
+
+        </div>
+    </div>
+    
+    
+</html>
